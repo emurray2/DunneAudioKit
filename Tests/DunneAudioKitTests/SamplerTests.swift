@@ -13,7 +13,7 @@ class SamplerTests: XCTestCase {
         let sampleURL = Bundle.module.url(forResource: "TestResources/12345", withExtension: "wav")!
         let file = try! AVAudioFile(forReading: sampleURL)
         let sampler = Sampler()
-        let data = SamplerData(sampleDescriptor: SampleDescriptor(noteNumber: 64, noteFrequency: 440, minimumNoteNumber: 0, maximumNoteNumber: 127, minimumVelocity: 0, maximumVelocity: 127, isLooping: false, loopStartPoint: 0, loopEndPoint: 1000.0, startPoint: 0.0, endPoint: 44100.0 * 5.0), file: file)
+        let data = SamplerData(sampleDescriptor: SampleDescriptor(noteNumber: 64, noteFrequency: 440, minimumNoteNumber: 0, maximumNoteNumber: 127, minimumVelocity: 0, maximumVelocity: 127, isLooping: false, loopStartPoint: 0, loopEndPoint: 1000.0, startPoint: 0.0, endPoint: Float(Settings.sampleRate * 5.0)), file: file)
         data.buildKeyMap()
         sampler.update(data: data)
         sampler.masterVolume = 0.1
