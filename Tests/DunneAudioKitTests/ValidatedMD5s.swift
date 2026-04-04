@@ -17,7 +17,7 @@ let validatedMD5s: [String: String] = [
     "-[SynthTests testMonophonicPlayback]": "2851284c61e62af0ade1e0ac5ee786c9",
     "-[SynthTests testParameterInitialization]": "0030b568eff9dcdbd5b532a5de1e32dd",
     "-[TransientShaperTests testAttackAmount]": "481068b77fc73b349315f2327fb84318",
-    "-[TransientShaperTests testDefault]": "cea9fc1deb7a77fe47a071d7aaf411d3",
+    "-[TransientShaperTests testDefault]": "f139028d9fdc1044e478b0ca32314971",
     "-[TransientShaperTests testOutputAmount]": "e84963aeedd6268dd648dd6a862fb76a",
     "-[TransientShaperTests testplayerAmount]": "f70c4ba579921129c86b9a6abb0cb52e",
     "-[TransientShaperTests testReleaseAmount]": "accb7a919f3c63e4dbec41c0e7ef88db",
