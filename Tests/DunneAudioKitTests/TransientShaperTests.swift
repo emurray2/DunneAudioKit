@@ -17,7 +17,7 @@ class TransientShaperTests: XCTestCase {
         testMD5(audio)
     }
 
-    func testplayerAmount() {
+    func testInputAmount() {
         let engine = AudioEngine()
         let url = Bundle.module.url(forResource: "12345", withExtension: "wav", subdirectory: "TestResources")!
         let player = AudioPlayer(url: url)!
