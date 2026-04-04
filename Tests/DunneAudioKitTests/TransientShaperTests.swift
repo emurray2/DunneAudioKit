@@ -39,8 +39,6 @@ class TransientShaperTests: XCTestCase {
         testMD5(audio)
     }
 
-    /* Intermittent Tests
-     
     func testAttackAmount() {
         let engine = AudioEngine()
         let url = Bundle.module.url(forResource: "12345", withExtension: "wav", subdirectory: "TestResources")!
@@ -62,23 +60,4 @@ class TransientShaperTests: XCTestCase {
         audio.append(engine.render(duration: 1.0))
         testMD5(audio)
     }
- */
-
-    /* This produces different MD5s on local machines vs CI
-    func testParameters() {
-        let engine = AudioEngine()
-        let url = Bundle.module.url(forResource: "12345", withExtension: "wav", subdirectory: "TestResources")!
-         let player = AudioPlayer(url: url)!
-        engine.output = TransientShaper(player,
-                                        playerAmount: -1.0,
-                                        attackAmount: -3.0,
-                                        releaseAmount: 1.0,
-                                        outputAmount: 0.0)
-        player.play()
-        let audio = engine.startTest(totalDuration: 1.0)
-        audio.append(engine.render(duration: 1.0))
-        testMD5(audio)
-    }
-    */
-
 }

@@ -19,6 +19,6 @@ let validatedMD5s: [String: String] = [
     "-[TransientShaperTests testDefault]": "f139028d9fdc1044e478b0ca32314971",
     "-[TransientShaperTests testInputAmount]": "e2af46fde7535edcdc2ac3c886b76d3f",
     "-[TransientShaperTests testOutputAmount]": "8a8b3ac6aa331783e7fa956cbfddf342",
-    "-[TransientShaperTests testAttackAmount]": "481068b77fc73b349315f2327fb84318",
-    "-[TransientShaperTests testReleaseAmount]": "accb7a919f3c63e4dbec41c0e7ef88db"
+    "-[TransientShaperTests testAttackAmount]": "aafba2c797ab8c9d2aeed86b05c73607",
+    "-[TransientShaperTests testReleaseAmount]": "aa5eed98c0268885969bd037f9a97b9e",
 ]
