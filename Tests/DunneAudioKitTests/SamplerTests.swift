@@ -46,13 +46,13 @@ class SamplerTests: XCTestCase {
         sampler.load(avAudioFile: file)
         sampler.masterVolume = 1
         engine.output = sampler
-        let audio = engine.startTest(totalDuration: 8.0)
+        let audio = engine.startTest(totalDuration: 9.0)
         audio.append(engine.render(duration: 1.0)) // run test for a second before setting parameters
         sampler.attackDuration = 1.0
         sampler.load(avAudioFile: file)
         audio.append(engine.render(duration: 1.0)) // run test to give time to load
         sampler.play(noteNumber: 65, velocity: 127)
-        audio.append(engine.render(duration: 6.0))
+        audio.append(engine.render(duration: 7.0))
         sampler.stop(noteNumber: 65)
         testMD5(audio)
     }
