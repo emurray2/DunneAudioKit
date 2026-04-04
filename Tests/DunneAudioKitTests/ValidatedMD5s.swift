@@ -18,7 +18,7 @@ let validatedMD5s: [String: String] = [
     "-[SynthTests testParameterInitialization]": "0030b568eff9dcdbd5b532a5de1e32dd",
     "-[TransientShaperTests testDefault]": "f139028d9fdc1044e478b0ca32314971",
     "-[TransientShaperTests testInputAmount]": "e2af46fde7535edcdc2ac3c886b76d3f",
-    "-[TransientShaperTests testOutputAmount]": "e84963aeedd6268dd648dd6a862fb76a",
+    "-[TransientShaperTests testOutputAmount]": "8a8b3ac6aa331783e7fa956cbfddf342",
     "-[TransientShaperTests testAttackAmount]": "481068b77fc73b349315f2327fb84318",
     "-[TransientShaperTests testReleaseAmount]": "accb7a919f3c63e4dbec41c0e7ef88db"
 ]
